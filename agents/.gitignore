@@ -1,22 +1,22 @@
-# --- Security (Most Important) ---
+# --- Security ---
 .env
 api_keys.txt
-secrets.json
+
+# --- AI & Large Models (CRITICAL) ---
+agents/my_local_model/
+agents/local_model_cache/
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.ot
+
+# --- Databases ---
+agents/chroma_db/
+*.db
+*.sqlite3
 
 # --- Python ---
 __pycache__/
 *.pyc
-
-# --- Virtual Environments (Do NOT upload these) ---
 venv/
-env/
-.venv/
-
-# --- Databases ---
-*.db
-*.sqlite3
-
-# --- OS / Editor Junk ---
-.DS_Store
-.vscode/
-.idea/
