@@ -8,3 +8,4 @@ schedule
 streamlit 
 plotly
 chainlit
+langchain-text-splitters
