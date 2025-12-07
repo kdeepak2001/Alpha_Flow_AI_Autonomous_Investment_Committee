@@ -1,0 +1,9 @@
+yfinance
+pandas
+duckduckgo-search
+google-generativeai
+langchain
+langchain-community
+schedule
+streamlit
+plotly
